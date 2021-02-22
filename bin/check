@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "***** black *****"
+black --check .
+
+echo "***** flake8 *****"
+flake8
+
+echo "***** isort *****"
+isort --check .
+
+echo "***** xenon *****"
+xenon --max-absolute B --max-modules A --max-average A lilili tests

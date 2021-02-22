@@ -1,0 +1,16 @@
+attrs          20.3.0    Classes Without Boilerplate
+certifi        2020.12.5 Python package for providing Mozilla's CA Bundle.
+chardet        4.0.0     Universal encoding detector for Python 2 and 3
+coverage       5.4       Code coverage measurement for Python
+idna           2.10      Internationalized Domain Names in Applications (IDNA)
+more-itertools 8.7.0     More routines for operating on iterables, beyond itertools
+packaging      20.9      Core utilities for Python packages
+pluggy         0.13.1    plugin and hook calling mechanisms for python
+py             1.10.0    library with cross-python path, ini-parsing, io, code, log facilities
+pyparsing      2.4.7     Python parsing module
+pytest         5.4.3     pytest: simple powerful testing with Python
+pytest-cov     2.11.1    Pytest plugin for measuring coverage.
+requests       2.25.1    Python HTTP for Humans.
+toml           0.10.2    Python Library for Tom's Obvious, Minimal Language
+urllib3        1.26.3    HTTP library with thread-safe connection pooling, file post, and more.
+wcwidth        0.2.5     Measures the displayed width of unicode strings in a terminal

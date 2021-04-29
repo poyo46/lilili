@@ -1,5 +1,6 @@
 # LiLiLi: List the Licenses of the Libraries
 
+[![Test](https://github.com/poyo46/lilili/workflows/Test/badge.svg)](https://github.com/poyo46/lilili/actions?query=workflow%3ATest)
 [![PyPI Version](https://img.shields.io/pypi/v/lilili.svg)](https://pypi.org/pypi/lilili/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/lilili.svg)](https://pypi.org/pypi/lilili/)
 [![License](https://img.shields.io/pypi/l/lilili.svg)](https://github.com/poyo46/lilili/blob/main/LICENSE)
@@ -23,6 +24,7 @@ $ poetry add lilili
 ```
 
 ## Examples
+
 ### Search for and list the licenses of libraries
 
 **Python libraries**
@@ -82,6 +84,6 @@ The output `result.yml` is in the same format as above.
 
 ## Why LiLiLi?
 
-* LiLiLi uses [the SPDX license list](https://spdx.org/licenses/), which is also used by [GitHub Licenses API](https://docs.github.com/en/rest/reference/licenses), so the license notation can be reused.
-* If LiLiLi cannot determine the license for a particular version of the library, it will search for the latest version of the license or a license registered in the GitHub repository.
-* LiLiLi will reveal the URL of the API on which the licensing decision is based, so you can double-check it yourself.
+- LiLiLi uses [the SPDX license list](https://spdx.org/licenses/), which is also used by [GitHub Licenses API](https://docs.github.com/en/rest/reference/licenses), so the license notation can be reused.
+- If LiLiLi cannot determine the license for a particular version of the library, it will search for the latest version of the license or a license registered in the GitHub repository.
+- LiLiLi will reveal the URL of the API on which the licensing decision is based, so you can double-check it yourself.
